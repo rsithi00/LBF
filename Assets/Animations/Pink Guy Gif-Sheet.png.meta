@@ -1,0 +1,2665 @@
+fileFormatVersion: 2
+guid: 43e11d26124e14d4099fd3a6126b1e59
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1191f8f3a0c0cc40a4c569e13dddd71
+      internalID: -947103108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 4400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a934ad39f7a35458a10d63ce8dd3d6
+      internalID: 1869784803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 4400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f8ded926291384eb55fcd106c927df
+      internalID: -2131371752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 4400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fdf9e7fb2ec634f99cb720d9f53c0c
+      internalID: -1146150565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8260077d462db2844abc1867a8f06529
+      internalID: -460475534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66b22dc878281a459eb871f7b6665bb
+      internalID: -1685807572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 4200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb43b7a57f01864b8aec6358a4de0ed
+      internalID: 1066124340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 4200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12af982ffbeeac84aafef501e71c3070
+      internalID: 1059090110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 4200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98add7d23dc641a4bb2038912e563cef
+      internalID: 473215667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd95f2d02f04c5547b1d6e2bc130ec2f
+      internalID: 1632540090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c590631902e7774f8eafa2beaba8fda
+      internalID: -1638675478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 4000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63161ae76402ec74ebfb654b2b3c0745
+      internalID: -600158628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 4000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0482608aaca58a84896da57648bc53e2
+      internalID: -519084970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 4000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f87e3e7a9756144abcb1e74aa6f699a
+      internalID: -141392921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73dbe4cb050d8b478f925153c4a0383
+      internalID: -643598838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59110da1faefdfd45a52f0cae26d4cd2
+      internalID: -2079208567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 3800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0ec8e077590994d9b5edff3fbef1ec
+      internalID: 167638041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 3800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39121e2fa4f70aa4490375a8320c48b2
+      internalID: 617034378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af9c5c2a300d314aafde92f9071720e
+      internalID: -1824726753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6718bac2787644644a3f52f019bc661b
+      internalID: -1870985700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a558662a5ca30b4093ca7029b2da18b
+      internalID: 2061122635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 3600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea44a8d247b48254e889c6c68b7f5598
+      internalID: 1955532700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 3600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7122fd54167e743b78663c5b519773
+      internalID: -106067334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c334aec4be2774a4898dffca099568cf
+      internalID: 1511166295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fca3853a2a898648925f7da5fafbf1d
+      internalID: -935617609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92ad2eba9e62274baa356f3e557a0da
+      internalID: 1639752060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 3400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a2c551359c3a943aa4cbdf53089d96
+      internalID: 337300684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 3400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27157b4b439b9c40833e6d22d33f7d5
+      internalID: 1892184029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f157651c0ed4d4ca8ca0cdd502688b
+      internalID: 391895318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f94c3e06ac4fa04d9881f6853bb6521
+      internalID: 469255957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29540976cd1c22448b2916775bb6dac
+      internalID: -184210486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 3200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc85e73d8d48a54db98b635ce676395
+      internalID: -1375695621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 3200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aeb2664f01410641b239f0b8a8fdb42
+      internalID: 1860000761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8905aaf55108e34e99b88a7dec6c63e
+      internalID: -61333519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c3d5b51167b674e9c9e8bfa1f9d29b
+      internalID: 235823917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9d9898a505b924f93d23747cd86ed4
+      internalID: 1566004194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 3000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199510557fad8c746a209c7a6d84e71d
+      internalID: -5701022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 3000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fc818138e1b4247913429830cec893
+      internalID: 252733841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1370ec68f58cd85449bf42c2d56146b4
+      internalID: -638977653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017ef4ba347d2c148a0cbc012bb2dcb0
+      internalID: 1570723297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3fbbac9eea05d469a66091eb2e4c3f
+      internalID: -782368746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776625594feb20644bc2ca0a313b72fd
+      internalID: -1242329848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687559802ce9c804e95fcd94f3318db5
+      internalID: 1317038373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea681659d63a3840972746a1d3b1d76
+      internalID: -765483695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2617c7488999ce49906926ceb823f3e
+      internalID: -57088659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c06f7eb8881e02488742722b3f2538f
+      internalID: 1531354805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc877ac766874984b8eaed169a251758
+      internalID: 270763265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0b54c40aca6fd4897ae142f3d6785b
+      internalID: 977439678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c099c5c27565fb9478e65b7be20fed4d
+      internalID: 668562566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996192979f88ae247a4d5b150996ab2c
+      internalID: 912662847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a24470e7bc19546a23bddc5db5c192
+      internalID: -1603308976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fc56c2924626e46bfb9a21f85b7831
+      internalID: -1121990310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57fbe7d8f36c324895f75e42a92fe16
+      internalID: -489079548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b0ee196bc7df948868258d7b9b0195
+      internalID: 861748414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b274ab5318da1a49804789b35ef9101
+      internalID: 1978487918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fe11d9504b3c643928a25b07f7a815
+      internalID: -1777681369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a58cbc256501b64aac7dc81ba8b0f51
+      internalID: -1887281159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54617d28b2e6c394787a4cc348f25299
+      internalID: 401256805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6023aa9cfcf94e46b69f97b67cfba70
+      internalID: 1383633879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9352f623f8e4a84b942875c4f3567ab
+      internalID: -272498033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cddfcd564f427441b68a3533736fd4a
+      internalID: 1311005521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074bcf30f0188f4418f1d5b6ac039665
+      internalID: 1789116352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 2000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601e7d53698e05543995eb08919aa657
+      internalID: 2063984630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 2000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63abd912deb4434390f5f1cb29ac064
+      internalID: 605282220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23f6e120ac9d284a984022f63976684
+      internalID: -1426338398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259a5cc384b690c4a8459da32d1dab91
+      internalID: -1161059742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796dfcfc479f184448b820fefd6abf12
+      internalID: 1360038580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fe7eb74bbc7844286a8f674e35af98
+      internalID: 1016757525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c114b44f533b4f4284d6a69f96ab6e1
+      internalID: -1362750216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed261dfa83a99b4fb203d713952ec5f
+      internalID: -447001203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca69612e84cb7e43868b52dfed71259
+      internalID: 252054021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e0e88b003080849835bf566cef702f
+      internalID: -418958380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5208158f49e9882488b288d4c9c5f367
+      internalID: -468441031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9ba2d06acf6da40a2783d76c89726c
+      internalID: 1751753942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57c507286f82e449afba0c513d66f0c
+      internalID: -1941709118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d1b962e132e424abdbdf79dc22c99f
+      internalID: 683402553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360d74cdd00b26947945060775c0a9bc
+      internalID: -1311283642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe40fe13abd794488584413063597f0
+      internalID: 2009644885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f290e49e86581d843a51fd2a9fdd13b4
+      internalID: 1534847941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a569b689a446b69409f86816dce98990
+      internalID: -44767355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea336cf757211b4796e14ebb5ffc91e
+      internalID: 2030118266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582a0ebdc80ec3d428689bf213b5a1f2
+      internalID: -1662937122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c50d0fee18c37245b9968008fc0ea51
+      internalID: 1536191644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fa3154297dea24aa440b8c2ba4e84d
+      internalID: -1777534406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f4bf319452855488ed89a1ae946d4e
+      internalID: 969914462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e12d20d0d7cc714bb6262902440536c
+      internalID: -873142032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deff9ef324f56914296d48768fcc12d9
+      internalID: -237101631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c516d6300888f64c8054a1f93e25bdb
+      internalID: -739563317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7aabb774824c240a202ac5133d2995
+      internalID: 2015604669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1000
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bab8ef6a662619438c3858d816dceeb
+      internalID: 1193382154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a0a8d8f20fcea409708f052b3da118
+      internalID: -234707943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f3d117e1f909940a3663bd0416ec12
+      internalID: 2071209867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480035477e17066428bc3c909f461cce
+      internalID: -487122744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cdb9b91a31a624995e84db4878475d
+      internalID: -1341560741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 800
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98748f94e030dde4bab63a5b1be7bf3b
+      internalID: 887177909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e848ed8d0b77cd40a5c2c16918c8fbf
+      internalID: -1827592459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f7237b2dc98354baadd3fd0b2bcf57
+      internalID: 1258315627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846dd9399e9e97e4d98f7d063d6f6c98
+      internalID: -1202042173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5f28e246c02f74287bb1bac565a196
+      internalID: 241300965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 600
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e22ea424e3d5b49a1cbf3a23b6dfc9
+      internalID: 1859595140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d1fab5442157241a02e510e258e03f
+      internalID: 1309728852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b95f9739586d084cbe69b2d4241c32f
+      internalID: 870734891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53eb0407a59591d458ffa0329a5917a8
+      internalID: 909539531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a93897d5aa5ce4c97b8876f38bda33
+      internalID: -1048135601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 400
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f86a9203dc2b984c9ecb8c5ef5a9c81
+      internalID: -1686249092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55df870325064c34eb5381b4883acb03
+      internalID: -1518058291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65434587e6e0ac94196f1804c77c205a
+      internalID: -1123765103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002587498f7b047438a888218607ae53
+      internalID: 251130039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6572e194673d8d042af8a0dc2d506cb8
+      internalID: -217662352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 200
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c12da126cc97f4f9d7d578b9cd7d59
+      internalID: -734946789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e268b09ad65f7a40875d0115af32b4e
+      internalID: -1163354425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153a9bf710a99c542954254b1c843fd3
+      internalID: -693058137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d480ba13346ebb4b97b8ee5800758a5
+      internalID: 1072607458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f659c56ad9299499d6097b1c9f8de4
+      internalID: 1823602711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pink Guy Gif-Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 140
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c09d51410a7fd46aaeaab150cf3e66
+      internalID: -1979102973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Pink Guy Gif-Sheet_0: -947103108
+      Pink Guy Gif-Sheet_1: 1869784803
+      Pink Guy Gif-Sheet_10: -1638675478
+      Pink Guy Gif-Sheet_100: 1309728852
+      Pink Guy Gif-Sheet_101: 870734891
+      Pink Guy Gif-Sheet_102: 909539531
+      Pink Guy Gif-Sheet_103: -1048135601
+      Pink Guy Gif-Sheet_104: -1686249092
+      Pink Guy Gif-Sheet_105: -1518058291
+      Pink Guy Gif-Sheet_106: -1123765103
+      Pink Guy Gif-Sheet_107: 251130039
+      Pink Guy Gif-Sheet_108: -217662352
+      Pink Guy Gif-Sheet_109: -734946789
+      Pink Guy Gif-Sheet_11: -600158628
+      Pink Guy Gif-Sheet_110: -1163354425
+      Pink Guy Gif-Sheet_111: -693058137
+      Pink Guy Gif-Sheet_112: 1072607458
+      Pink Guy Gif-Sheet_113: 1823602711
+      Pink Guy Gif-Sheet_114: -1979102973
+      Pink Guy Gif-Sheet_12: -519084970
+      Pink Guy Gif-Sheet_13: -141392921
+      Pink Guy Gif-Sheet_14: -643598838
+      Pink Guy Gif-Sheet_15: -2079208567
+      Pink Guy Gif-Sheet_16: 167638041
+      Pink Guy Gif-Sheet_17: 617034378
+      Pink Guy Gif-Sheet_18: -1824726753
+      Pink Guy Gif-Sheet_19: -1870985700
+      Pink Guy Gif-Sheet_2: -2131371752
+      Pink Guy Gif-Sheet_20: 2061122635
+      Pink Guy Gif-Sheet_21: 1955532700
+      Pink Guy Gif-Sheet_22: -106067334
+      Pink Guy Gif-Sheet_23: 1511166295
+      Pink Guy Gif-Sheet_24: -935617609
+      Pink Guy Gif-Sheet_25: 1639752060
+      Pink Guy Gif-Sheet_26: 337300684
+      Pink Guy Gif-Sheet_27: 1892184029
+      Pink Guy Gif-Sheet_28: 391895318
+      Pink Guy Gif-Sheet_29: 469255957
+      Pink Guy Gif-Sheet_3: -1146150565
+      Pink Guy Gif-Sheet_30: -184210486
+      Pink Guy Gif-Sheet_31: -1375695621
+      Pink Guy Gif-Sheet_32: 1860000761
+      Pink Guy Gif-Sheet_33: -61333519
+      Pink Guy Gif-Sheet_34: 235823917
+      Pink Guy Gif-Sheet_35: 1566004194
+      Pink Guy Gif-Sheet_36: -5701022
+      Pink Guy Gif-Sheet_37: 252733841
+      Pink Guy Gif-Sheet_38: -638977653
+      Pink Guy Gif-Sheet_39: 1570723297
+      Pink Guy Gif-Sheet_4: -460475534
+      Pink Guy Gif-Sheet_40: -782368746
+      Pink Guy Gif-Sheet_41: -1242329848
+      Pink Guy Gif-Sheet_42: 1317038373
+      Pink Guy Gif-Sheet_43: -765483695
+      Pink Guy Gif-Sheet_44: -57088659
+      Pink Guy Gif-Sheet_45: 1531354805
+      Pink Guy Gif-Sheet_46: 270763265
+      Pink Guy Gif-Sheet_47: 977439678
+      Pink Guy Gif-Sheet_48: 668562566
+      Pink Guy Gif-Sheet_49: 912662847
+      Pink Guy Gif-Sheet_5: -1685807572
+      Pink Guy Gif-Sheet_50: -1603308976
+      Pink Guy Gif-Sheet_51: -1121990310
+      Pink Guy Gif-Sheet_52: -489079548
+      Pink Guy Gif-Sheet_53: 861748414
+      Pink Guy Gif-Sheet_54: 1978487918
+      Pink Guy Gif-Sheet_55: -1777681369
+      Pink Guy Gif-Sheet_56: -1887281159
+      Pink Guy Gif-Sheet_57: 401256805
+      Pink Guy Gif-Sheet_58: 1383633879
+      Pink Guy Gif-Sheet_59: -272498033
+      Pink Guy Gif-Sheet_6: 1066124340
+      Pink Guy Gif-Sheet_60: 1311005521
+      Pink Guy Gif-Sheet_61: 1789116352
+      Pink Guy Gif-Sheet_62: 2063984630
+      Pink Guy Gif-Sheet_63: 605282220
+      Pink Guy Gif-Sheet_64: -1426338398
+      Pink Guy Gif-Sheet_65: -1161059742
+      Pink Guy Gif-Sheet_66: 1360038580
+      Pink Guy Gif-Sheet_67: 1016757525
+      Pink Guy Gif-Sheet_68: -1362750216
+      Pink Guy Gif-Sheet_69: -447001203
+      Pink Guy Gif-Sheet_7: 1059090110
+      Pink Guy Gif-Sheet_70: 252054021
+      Pink Guy Gif-Sheet_71: -418958380
+      Pink Guy Gif-Sheet_72: -468441031
+      Pink Guy Gif-Sheet_73: 1751753942
+      Pink Guy Gif-Sheet_74: -1941709118
+      Pink Guy Gif-Sheet_75: 683402553
+      Pink Guy Gif-Sheet_76: -1311283642
+      Pink Guy Gif-Sheet_77: 2009644885
+      Pink Guy Gif-Sheet_78: 1534847941
+      Pink Guy Gif-Sheet_79: -44767355
+      Pink Guy Gif-Sheet_8: 473215667
+      Pink Guy Gif-Sheet_80: 2030118266
+      Pink Guy Gif-Sheet_81: -1662937122
+      Pink Guy Gif-Sheet_82: 1536191644
+      Pink Guy Gif-Sheet_83: -1777534406
+      Pink Guy Gif-Sheet_84: 969914462
+      Pink Guy Gif-Sheet_85: -873142032
+      Pink Guy Gif-Sheet_86: -237101631
+      Pink Guy Gif-Sheet_87: -739563317
+      Pink Guy Gif-Sheet_88: 2015604669
+      Pink Guy Gif-Sheet_89: 1193382154
+      Pink Guy Gif-Sheet_9: 1632540090
+      Pink Guy Gif-Sheet_90: -234707943
+      Pink Guy Gif-Sheet_91: 2071209867
+      Pink Guy Gif-Sheet_92: -487122744
+      Pink Guy Gif-Sheet_93: -1341560741
+      Pink Guy Gif-Sheet_94: 887177909
+      Pink Guy Gif-Sheet_95: -1827592459
+      Pink Guy Gif-Sheet_96: 1258315627
+      Pink Guy Gif-Sheet_97: -1202042173
+      Pink Guy Gif-Sheet_98: 241300965
+      Pink Guy Gif-Sheet_99: 1859595140
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

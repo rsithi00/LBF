@@ -4,75 +4,76 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+
     private Rigidbody2D rb;
+    [SerializeField] private float moveSpeed = 20f;
+    [SerializeField] private float jumpForce = 70f;
+    public ProgressBar healthBar;
+
+    private bool isGround;
+
+
+    [SerializeField] private int playerNumber;
     private SpriteRenderer sprite;
-    [SerializeField] private float moveSpeed = 2f;
-    [SerializeField] private float jumpForce = 7f;
-    private float dirX;
-    [SerializeField] private float maxHealth = 100;
-    [SerializeField] private GameObject hitEffect;
-    private HealthBar healthbar;
-    private float currentHealth;
-
-    private bool opponentRight;
+    private string playerHorizontal;
+    private string playerVertical;
 
 
+    // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
-        currentHealth = maxHealth;
-        healthbar.UpdateHealthBar(maxHealth, currentHealth);
+        isGround = true;
+        if (playerNumber == 1)
+        {
+            playerHorizontal = "Horizontal";
+            playerVertical = "Vertical";
+        }
+        else
+        {
+            playerHorizontal = "HorizontalP2";
+            playerVertical = "VerticalP2";
+        }
+
     }
 
+    // Update is called once per frame
     void Update()
     {
-        // Define horizontal movement controls
-        dirX = Input.GetAxis("Horizontal");
+
+
+        float dirX = Input.GetAxisRaw(playerHorizontal);
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
-
-        if (opponentRight)
+        if(dirX > 0f)
         {
             sprite.flipX = false;
         }
-        else
+        else if (dirX < 0f)
         {
             sprite.flipX = true;
         }
 
-
-        if (Input.GetButtonDown("Jump"))
+        if(Input.GetKeyDown(KeyCode.W) && isGround)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
-
-        currentHealth -= GetHit();
-        if (currentHealth <= 0)
-        {
-            // deathscript
-        }
-        else
-        {
-            healthbar.UpdateHealthBar(maxHealth, currentHealth);
-            Instantiate(hitEffect, transform.position,Quaternion.identity);
-        }
-
-
     }
 
-    private bool GetOpponentSide(int player)
+        private void OnCollisionEnter2D(Collision2D col)
     {
-        bool side = true;
-        if (player == 2)
-            side = false;
-
-        return side;
+        if(col.gameObject.CompareTag("Floor"))
+        {
+            isGround = true;
+        }
     }
 
-    private float GetHit()
+    private void OnCollisionExit2D(Collision2D col)
     {
-        float hit = 10;
-        return hit;
+        if(col.gameObject.CompareTag("Floor"))
+        {
+            isGround = false;
+        }
     }
 }

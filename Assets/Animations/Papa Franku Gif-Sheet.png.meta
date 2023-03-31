@@ -1,0 +1,2225 @@
+fileFormatVersion: 2
+guid: 85cac934113b67f418609dba42bd9307
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3312
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b60c908c4778b947a1dddd6fba76400
+      internalID: 1223186265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 3312
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf59433cfdd88fa43b9fe7eee317ffd9
+      internalID: 496230153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 3312
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25b03581f7554f49bfa4c6184d50cb9
+      internalID: 1354508632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 3312
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9695751159bafd4cae09082a867194a
+      internalID: 1238947643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 3312
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fc72c641008d541b378f8e74b44237
+      internalID: 1246831058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3128
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c686e203bae3f3428360e4e2d1a1987
+      internalID: -960144755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 3128
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fcc36a0956e5542ae6e0dc3bcfaa46
+      internalID: -1630967013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 3128
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e29daee697bfb40b473efcdddd724e
+      internalID: -971747816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 3128
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518e9c86c789474408af339055e91bc3
+      internalID: -588861280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 3128
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543e8fc6480c68d4f82dc97111e3dd69
+      internalID: -1117520025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2944
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1126f138c5d46c445bc1ec3cf6793b4c
+      internalID: 1406287799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2944
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5839c13164d8a14290bc0d24d7380d4
+      internalID: 1861395180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2944
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817efa3ccff793d4488d3a49da102e41
+      internalID: 1663794717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 2944
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb3725d343f01543800140e645dc943
+      internalID: 777979860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 2944
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee05cbd82241d44c8a959223275df29
+      internalID: 1795376863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2760
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187aaa26bec25364ca5ab2225d6ad19f
+      internalID: -2004640817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2760
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f95d9488c0d64f41a189d9cc6ec61ff
+      internalID: -1295009281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2760
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d4b39315a9c934b8afab970b55281d
+      internalID: -1241754625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 2760
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1f352753e26674fa68545da4e54ab3
+      internalID: 130023861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 2760
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f7241eac9f9f546af04f50cb61bddd
+      internalID: 919605689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2576
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5017b743e15b43142bbd59271d18eadf
+      internalID: -645595460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2576
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aee67db5ec1c4b4eb2a563fbcf2a9d5
+      internalID: -2018589952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2576
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e3460b081a18d42885e226cecbb920
+      internalID: 574173021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 2576
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ebd5baaeb592d47b443285b3029c7a
+      internalID: 2084550693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 2576
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56017e61240937442a95e267967636aa
+      internalID: -2078533752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2392
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd991a379ac98e24c82ad040343fbce2
+      internalID: 1600655530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2392
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5f5f15b5872294193837ee48c809a2
+      internalID: -1548408882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2392
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f97eba53e15f84c984ea0416b008b2
+      internalID: -1891574012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 2392
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791bbb0aaa2ca314f8803d5c17fa4c8f
+      internalID: -1201808917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 2392
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a2fc65aaf1ba74f8b7c8b09b6094d2
+      internalID: 869232458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2208
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb374284ea5fe844e9b1c034c31eb978
+      internalID: 85032091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2208
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d482b92fb904e4743b3a579b4156dcf8
+      internalID: 934646321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2208
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff589ee263dc3d4a9873fbdc25d2a1e
+      internalID: 905359535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 2208
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33251f83abd1e8f4b97ce1cf45325632
+      internalID: 1960485886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 2208
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7d481069c10614d9576535d2022844
+      internalID: -680318289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2024
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4875df72836b65548ab6f3d596b96720
+      internalID: -1266754739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2024
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a7a79369f430343b33ff8e6d26fecc
+      internalID: -2147322932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2024
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05de51aca77f7394389f6ff18b29b316
+      internalID: -625502891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 2024
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a882dfaffcd44ce4ba8667c799a5f942
+      internalID: 351160515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 2024
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c645aeb7c0d85824e868f57b63ad3e19
+      internalID: -1565048048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1840
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2012cf272eda04392b990983dd7902
+      internalID: 370635156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1840
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eadbe068d9945e47b3a8ed658e68c50
+      internalID: 2092845173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1840
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cda12b462cb8c4395d6a228795fd04
+      internalID: -1892491753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1840
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e7c6f9c67ea384b92d75549e80b137
+      internalID: -694831501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1840
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17337ad41209f1b44aad4fd1209cd3cf
+      internalID: -1987697622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1656
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cdbca5eac960d48b06ec614b68b542
+      internalID: -1193307109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1656
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbc1f083d296284ca9c371bfd7f8d00
+      internalID: 2076115928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1656
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418ee9d3f15122f4b91bafe8610463bc
+      internalID: 2031813474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1656
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9972f11874dea48b2f6c22dcf79b53
+      internalID: -797116338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1656
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ace23ba8ef445f45b45bbd29acd78c4
+      internalID: -1998801288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1472
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da2e97ab6998a9489170d6252c33050
+      internalID: -901639523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1472
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad0e92f2e0476d43ac4b50684ddee5b
+      internalID: 1264051505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1472
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac55adf7de5914549849901cb2d40406
+      internalID: -1631492663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1472
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef7c72d53fbe5343b2ad02b9c9d4e34
+      internalID: 2126460465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1472
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e95f401705f5e74aa948181fbb996f6
+      internalID: -1913891043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1288
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8f21cde5db2f7499034d77026bc562
+      internalID: -1984299132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1288
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8fee1eae7a4b444bdcb09234fc8b86
+      internalID: -1812974916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1288
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd1b44709c7a6641be2eee3c0feddad
+      internalID: -1944358609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1288
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff72e2684b7e00245bf68e1c63385944
+      internalID: -1687241120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1288
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39f7e89e77cd034cbf8bfd4eb427a02
+      internalID: 498131055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1104
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a69a7c39a9c144ebeefc9c69b59d4b
+      internalID: -1770651075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1104
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc58a312b8656546b58efdf89801f0c
+      internalID: 1588014144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1104
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ec53cc71b8c9d4abb302c9c73037d3
+      internalID: -1914956790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1104
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a0182d7ad07bc4c8d9db0cebe82f6f
+      internalID: -494927718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1104
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fab1f9203dc605438a649cffa42ffe4
+      internalID: 1798565536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 920
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119befa3719ac124b833c0b6b047f9a8
+      internalID: 541199422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 920
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65c93d9dffc5344188249c57ce1a29f
+      internalID: -628623268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 920
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8a60e745e521f4aa3c0e454e226399
+      internalID: -217400564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 920
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5074307a5c085744bce59fca58e1ea3
+      internalID: -384336819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 920
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b636bf8f0eccec542a9cb784b1a14b50
+      internalID: 297081078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 736
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45933e1fed8e2f54c941b746f98f350f
+      internalID: 2027430249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 736
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62dc831539bfea458d02cf88b4e2bab
+      internalID: 1119922914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 736
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cbfbf8ed50d1d40ba517b947dc9313
+      internalID: -1144017966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 736
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbaf4232d97fa1f499dcf40984d0d002
+      internalID: -1212132149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 736
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd258006f33a1c84b9256cb0d2859094
+      internalID: -1897746436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 552
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93968c4e0eadcfd4d91119d5a8120628
+      internalID: 137780390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 552
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c949d1050fceb134a8d67d1ac496573d
+      internalID: 1301886178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 552
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ba3267c89da3f4cbfdb2b09877cc41
+      internalID: 814452844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 552
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cc7e9281562334f85486a4da03c8a3
+      internalID: 1643441953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 552
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb74550236346ac4d947f355fe34af5c
+      internalID: -884884270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a28616a94f17aa459aa10331b167c1e
+      internalID: -734130884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 368
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04a3cd9a92f12b4f846719b8ebce612
+      internalID: -37648432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 368
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc38e5854b6b2f44a95e4146be8bee9
+      internalID: -1114630607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 368
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4436c03d3fa95364b8ed467ea08d9b0f
+      internalID: 453251994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 368
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80da3c89ae51af74c8811c55cf10553f
+      internalID: 554139362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93a8c9ac64d1c9488ff68ee489a50c9
+      internalID: 1777691346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 184
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4fae196bd9f1444a47d11fd5fdf197
+      internalID: -900600144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 184
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966cfeb7b8a0b884985c8da712335d91
+      internalID: -1239893086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 184
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec87bf9c525af24cbbd65aea266cf2e
+      internalID: 1620448675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 184
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fa05d8d4dce7c44b0e1b1e82aa8243
+      internalID: -1292131574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666d425831a394a42b4c948e527a992b
+      internalID: -113250934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd612f7d5ab59584589974c4852f42ea
+      internalID: 11101709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 0
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280f0dfe706f9c64ea44c5515c34834f
+      internalID: -2100079442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 0
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaf4eb369b493e44a3926b164af34b9
+      internalID: -1560776873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Papa Franku Gif-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 0
+        width: 167
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887e38da65f4ae7458e3d91b9295bef4
+      internalID: 104826222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Papa Franku Gif-Sheet_0: 1223186265
+      Papa Franku Gif-Sheet_1: 496230153
+      Papa Franku Gif-Sheet_10: 1406287799
+      Papa Franku Gif-Sheet_11: 1861395180
+      Papa Franku Gif-Sheet_12: 1663794717
+      Papa Franku Gif-Sheet_13: 777979860
+      Papa Franku Gif-Sheet_14: 1795376863
+      Papa Franku Gif-Sheet_15: -2004640817
+      Papa Franku Gif-Sheet_16: -1295009281
+      Papa Franku Gif-Sheet_17: -1241754625
+      Papa Franku Gif-Sheet_18: 130023861
+      Papa Franku Gif-Sheet_19: 919605689
+      Papa Franku Gif-Sheet_2: 1354508632
+      Papa Franku Gif-Sheet_20: -645595460
+      Papa Franku Gif-Sheet_21: -2018589952
+      Papa Franku Gif-Sheet_22: 574173021
+      Papa Franku Gif-Sheet_23: 2084550693
+      Papa Franku Gif-Sheet_24: -2078533752
+      Papa Franku Gif-Sheet_25: 1600655530
+      Papa Franku Gif-Sheet_26: -1548408882
+      Papa Franku Gif-Sheet_27: -1891574012
+      Papa Franku Gif-Sheet_28: -1201808917
+      Papa Franku Gif-Sheet_29: 869232458
+      Papa Franku Gif-Sheet_3: 1238947643
+      Papa Franku Gif-Sheet_30: 85032091
+      Papa Franku Gif-Sheet_31: 934646321
+      Papa Franku Gif-Sheet_32: 905359535
+      Papa Franku Gif-Sheet_33: 1960485886
+      Papa Franku Gif-Sheet_34: -680318289
+      Papa Franku Gif-Sheet_35: -1266754739
+      Papa Franku Gif-Sheet_36: -2147322932
+      Papa Franku Gif-Sheet_37: -625502891
+      Papa Franku Gif-Sheet_38: 351160515
+      Papa Franku Gif-Sheet_39: -1565048048
+      Papa Franku Gif-Sheet_4: 1246831058
+      Papa Franku Gif-Sheet_40: 370635156
+      Papa Franku Gif-Sheet_41: 2092845173
+      Papa Franku Gif-Sheet_42: -1892491753
+      Papa Franku Gif-Sheet_43: -694831501
+      Papa Franku Gif-Sheet_44: -1987697622
+      Papa Franku Gif-Sheet_45: -1193307109
+      Papa Franku Gif-Sheet_46: 2076115928
+      Papa Franku Gif-Sheet_47: 2031813474
+      Papa Franku Gif-Sheet_48: -797116338
+      Papa Franku Gif-Sheet_49: -1998801288
+      Papa Franku Gif-Sheet_5: -960144755
+      Papa Franku Gif-Sheet_50: -901639523
+      Papa Franku Gif-Sheet_51: 1264051505
+      Papa Franku Gif-Sheet_52: -1631492663
+      Papa Franku Gif-Sheet_53: 2126460465
+      Papa Franku Gif-Sheet_54: -1913891043
+      Papa Franku Gif-Sheet_55: -1984299132
+      Papa Franku Gif-Sheet_56: -1812974916
+      Papa Franku Gif-Sheet_57: -1944358609
+      Papa Franku Gif-Sheet_58: -1687241120
+      Papa Franku Gif-Sheet_59: 498131055
+      Papa Franku Gif-Sheet_6: -1630967013
+      Papa Franku Gif-Sheet_60: -1770651075
+      Papa Franku Gif-Sheet_61: 1588014144
+      Papa Franku Gif-Sheet_62: -1914956790
+      Papa Franku Gif-Sheet_63: -494927718
+      Papa Franku Gif-Sheet_64: 1798565536
+      Papa Franku Gif-Sheet_65: 541199422
+      Papa Franku Gif-Sheet_66: -628623268
+      Papa Franku Gif-Sheet_67: -217400564
+      Papa Franku Gif-Sheet_68: -384336819
+      Papa Franku Gif-Sheet_69: 297081078
+      Papa Franku Gif-Sheet_7: -971747816
+      Papa Franku Gif-Sheet_70: 2027430249
+      Papa Franku Gif-Sheet_71: 1119922914
+      Papa Franku Gif-Sheet_72: -1144017966
+      Papa Franku Gif-Sheet_73: -1212132149
+      Papa Franku Gif-Sheet_74: -1897746436
+      Papa Franku Gif-Sheet_75: 137780390
+      Papa Franku Gif-Sheet_76: 1301886178
+      Papa Franku Gif-Sheet_77: 814452844
+      Papa Franku Gif-Sheet_78: 1643441953
+      Papa Franku Gif-Sheet_79: -884884270
+      Papa Franku Gif-Sheet_8: -588861280
+      Papa Franku Gif-Sheet_80: -734130884
+      Papa Franku Gif-Sheet_81: -37648432
+      Papa Franku Gif-Sheet_82: -1114630607
+      Papa Franku Gif-Sheet_83: 453251994
+      Papa Franku Gif-Sheet_84: 554139362
+      Papa Franku Gif-Sheet_85: 1777691346
+      Papa Franku Gif-Sheet_86: -900600144
+      Papa Franku Gif-Sheet_87: -1239893086
+      Papa Franku Gif-Sheet_88: 1620448675
+      Papa Franku Gif-Sheet_89: -1292131574
+      Papa Franku Gif-Sheet_9: -1117520025
+      Papa Franku Gif-Sheet_90: -113250934
+      Papa Franku Gif-Sheet_91: 11101709
+      Papa Franku Gif-Sheet_92: -2100079442
+      Papa Franku Gif-Sheet_93: -1560776873
+      Papa Franku Gif-Sheet_94: 104826222
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
