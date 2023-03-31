@@ -4,6 +4,8 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
+/*Comment*/
+
 public class TimerScript : MonoBehaviour
 {
 
