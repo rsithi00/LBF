@@ -6,11 +6,11 @@ public class PlayerMovement : MonoBehaviour
 {
 
     private Rigidbody2D rb;
-    [SerializeField] private float moveSpeed = 20f;
-    [SerializeField] private float jumpForce = 70f;
+    [SerializeField] private float moveSpeed = 8f;
+    [SerializeField] private float jumpForce = 10f;
     public ProgressBar healthBar;
 
-    private bool isGround;
+    [SerializeField] private bool isGround;
 
 
     [SerializeField] private int playerNumber;
@@ -43,8 +43,8 @@ public class PlayerMovement : MonoBehaviour
     {
 
 
-        float dirX = Input.GetAxisRaw(playerHorizontal);
-        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+        float dirX = Input.GetAxis(playerHorizontal);
+        rb.velocity = new Vector2(dirX * moveSpeed , rb.velocity.y);
 
         if(dirX > 0f)
         {
@@ -55,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
             sprite.flipX = true;
         }
 
-        if(Input.GetKeyDown(KeyCode.W) && isGround)
+        if(Input.GetKeyDown(KeyCode.UpArrow) && isGround)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }

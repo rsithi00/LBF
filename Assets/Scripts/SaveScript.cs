@@ -13,6 +13,7 @@ public class SaveScript : MonoBehaviour
     public static int P1Wins = 0;
     public static int P2Wins = 0;
     public static int round = 0;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,12 @@ public class SaveScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.G)) {
+            P1Health -= .05f;
+        }
         
+        if(Input.GetKeyDown(KeyCode.H)) {
+            P2Health -= .05f;
+        }
     }
 }
