@@ -13,7 +13,8 @@ public class SaveScript : MonoBehaviour
     public static int P1Wins = 0;
     public static int P2Wins = 0;
     public static int round = 0;
-    
+    public static float maxHealth = 1.0f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -32,5 +33,9 @@ public class SaveScript : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.H)) {
             P2Health -= .05f;
         }
+
+
     }
+
+
 }
