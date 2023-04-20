@@ -974,6 +974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   P1Life: {fileID: 595755495}
   P2Life: {fileID: 1172874528}
+  lerpSpeed: 0
 --- !u!1 &1092332512
 GameObject:
   m_ObjectHideFlags: 0
@@ -1367,6 +1368,7 @@ GameObject:
   - component: {fileID: 1395494148}
   - component: {fileID: 1395494147}
   - component: {fileID: 1395494154}
+  - component: {fileID: 1395494155}
   m_Layer: 0
   m_Name: Player2 Demo
   m_TagString: Player
@@ -1547,6 +1549,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 3000
+--- !u!114 &1395494155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395494146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcaee08b340133643a306ca3cf247039, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1591605988
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,6 +1578,7 @@ GameObject:
   - component: {fileID: 1591605995}
   - component: {fileID: 1591605996}
   - component: {fileID: 1591605997}
+  - component: {fileID: 1591605998}
   m_Layer: 0
   m_Name: Player1 Demo
   m_TagString: Player
@@ -1657,7 +1672,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1591605988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.35, y: -3.81, z: 0}
+  m_LocalPosition: {x: -7.65, y: -3.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1761,6 +1776,18 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   isGround: 0
   playerNumber: 0
+--- !u!114 &1591605998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591605988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcaee08b340133643a306ca3cf247039, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1592526016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1778,7 +1805,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1592526017
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1889,7 +1916,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &2087544861
 BoxCollider2D:
   m_ObjectHideFlags: 0
