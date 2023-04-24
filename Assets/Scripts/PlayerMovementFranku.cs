@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovementFranku : MonoBehaviour
 {
 
     private Rigidbody2D rb;
@@ -38,12 +38,9 @@ public class PlayerMovement : MonoBehaviour
         }
         else if(playerNumber == 2)
         {
-            sprite.flipX = true;
+            sprite.flipX = false;
         }
-        for (int i = 0; i<Gamepad.all.Count;i++)
-        {
-            Debug.Log(Gamepad.all[i].name);
-        }
+        
     }
 
     // Update is called once per frame
@@ -58,14 +55,14 @@ public class PlayerMovement : MonoBehaviour
         {
             facingLeft = false;
             facingRight = true;
-            sprite.flipX = false;
+            sprite.flipX = true;
         }
 
         if (OppPos.x < transform.position.x)
         {
             facingLeft = true;
             facingRight = false;            
-            sprite.flipX = true;
+            sprite.flipX = false;
         }
 
     }
