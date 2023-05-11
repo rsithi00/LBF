@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpForce = 10f;
     public ProgressBar healthBar;
     [SerializeField] private GameObject punch;
+    // 
 
     [SerializeField] private bool isGround = false;
     // private float groundRadius = 0.15f;
@@ -38,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
+        
         isGround = true;
 
         if(playerNumber == 1)
@@ -76,14 +78,17 @@ public class PlayerMovement : MonoBehaviour
         {
             facingLeft = false;
             facingRight = true;
-            sprite.flipX = false;
+            // sprite.flipX = false;
+            this.transform.localScale = new Vector3(1,1,1);
+
         }
 
         if (OppPos.x < transform.position.x)
         {
             facingLeft = true;
             facingRight = false;            
-            sprite.flipX = true;
+            this.transform.localScale = new Vector3(-1,1,1);
+            
         }
 
         anim.SetFloat("HSpeed", Mathf.Abs(moveXInput));
@@ -134,6 +139,18 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void OnPunch(InputValue value) {
+        anim.SetTrigger("Punch");
+    }
 
+    public void PunchOn()
+    {
+        punch.SetActive(true);
+    }
+
+    public void PunchOff()
+    {
+        punch.SetActive(false);
+    }
 
 }
