@@ -31,6 +31,8 @@ public class Player2Movement : MonoBehaviour
     public bool facingRight = true;
 
     private Animator anim;
+
+    [SerializeField] private AudioSource hitSound;
     
 
     // Start is called before the first frame update
@@ -134,6 +136,12 @@ public class Player2Movement : MonoBehaviour
 
     public void OnPunch(InputValue value) {
         anim.SetTrigger("Punch");
+
+        if(isGround)
+        {
+            hitSound.Play();
+        }
+        
     }
 
     public void PunchOn()

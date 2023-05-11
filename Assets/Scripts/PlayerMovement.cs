@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     // private float groundRadius = 0.15f;
 
 
+
     [SerializeField] private int playerNumber;
     private SpriteRenderer sprite;
     private string playerHorizontal;
@@ -31,7 +32,8 @@ public class PlayerMovement : MonoBehaviour
     public bool facingRight = true;
 
     private Animator anim;
-    
+
+    [SerializeField] private AudioSource hitSound;
 
     // Start is called before the first frame update
     void Start()
@@ -39,23 +41,23 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
-        
+
         isGround = true;
 
-        for (int i = 0; i<Gamepad.all.Count;i++)
+        for (int i = 0; i < Gamepad.all.Count; i++)
         {
             Debug.Log(Gamepad.all[i].name);
         }
     }
 
-	void FixedUpdate ()
-	{
+    void FixedUpdate()
+    {
 
-		// grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
-		anim.SetBool ("ground", isGround);
+        // grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
+        anim.SetBool("ground", isGround);
 
 
-	}
+    }
 
     // Update is called once per frame
     void Update()
@@ -66,21 +68,21 @@ public class PlayerMovement : MonoBehaviour
 
         OppPos = Opponent.transform.position;
 
-        if(OppPos.x > transform.position.x)
+        if (OppPos.x > transform.position.x)
         {
             facingLeft = false;
             facingRight = true;
             // sprite.flipX = false;
-            this.transform.localScale = new Vector3(1,1,1);
+            this.transform.localScale = new Vector3(1, 1, 1);
 
         }
 
         if (OppPos.x < transform.position.x)
         {
             facingLeft = true;
-            facingRight = false;            
-            this.transform.localScale = new Vector3(-1,1,1);
-            
+            facingRight = false;
+            this.transform.localScale = new Vector3(-1, 1, 1);
+
         }
 
         anim.SetFloat("HSpeed", Mathf.Abs(moveXInput));
@@ -88,23 +90,23 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-        void Move()
-        {
-
-            rb.velocity = new Vector2(movement.x * moveSpeed , rb.velocity.y);
-        }
-        void Jump()
-        {
-            if(isGround)
-            {
-                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-                anim.SetBool("ground", false);
-            }
-        }
-
-        private void OnCollisionEnter2D(Collision2D col)
+    void Move()
     {
-        if(col.gameObject.CompareTag("Floor"))
+
+        rb.velocity = new Vector2(movement.x * moveSpeed, rb.velocity.y);
+    }
+    void Jump()
+    {
+        if (isGround)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            anim.SetBool("ground", false);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("Floor"))
         {
             isGround = true;
         }
@@ -112,7 +114,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D col)
     {
-        if(col.gameObject.CompareTag("Floor"))
+        if (col.gameObject.CompareTag("Floor"))
         {
             isGround = false;
         }
@@ -123,16 +125,23 @@ public class PlayerMovement : MonoBehaviour
         movement = value.Get<Vector2>();
     }
 
-    public void OnJump(InputValue value) {
-        if(value.isPressed)
+    public void OnJump(InputValue value)
+    {
+        if (value.isPressed)
         {
             Jump();
             // rb.velocity = new Vector2(movement.x * moveSpeed, jumpForce);
+
         }
     }
 
-    public void OnPunch(InputValue value) {
+    public void OnPunch(InputValue value)
+    {
         anim.SetTrigger("Punch");
+        if (isGround)
+        {
+            hitSound.Play();
+        }
     }
 
     public void PunchOn()

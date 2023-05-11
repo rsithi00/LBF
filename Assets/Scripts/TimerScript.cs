@@ -17,6 +17,7 @@ public class TimerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        LevelTime = 99;
         timeStop = false;    
     }
 
@@ -24,7 +25,7 @@ public class TimerScript : MonoBehaviour
     void Update()
     {
 
-        if(SaveScript.P1Health <=0 || SaveScript.P2Health <=0)
+        if(SaveScript.P1Health <=0 || SaveScript.P2Health <=0 || LevelTime <= 0)
         {
             timeStop = true;
         }
