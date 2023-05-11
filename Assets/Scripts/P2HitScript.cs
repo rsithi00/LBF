@@ -13,9 +13,10 @@ public class P2HitScript : MonoBehaviour
     {
 
     }
-    void OnCollisionEnter2D(Collision2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        SaveScript.P1Health -= 0.05f;
+        SaveScript.P1Health -= 0.02f;
+        // Debug.Log("P2 Hit Success!");
     }
 
 

@@ -8,10 +8,10 @@ public class PlayerMovement : MonoBehaviour
 {
 
     private Rigidbody2D rb;
-    private float HSpeed = 10f;
+    // private float HSpeed = 10f;
     private float moveXInput;
     [SerializeField] private float moveSpeed = 8f;
-    [SerializeField] private float jumpForce = 10f;
+    [SerializeField] private float jumpForce = 14f;
     public ProgressBar healthBar;
     [SerializeField] private GameObject punch;
     // 
@@ -42,14 +42,6 @@ public class PlayerMovement : MonoBehaviour
         
         isGround = true;
 
-        if(playerNumber == 1)
-        {
-            sprite.flipX = false;
-        }
-        else if(playerNumber == 2)
-        {
-            sprite.flipX = true;
-        }
         for (int i = 0; i<Gamepad.all.Count;i++)
         {
             Debug.Log(Gamepad.all[i].name);
@@ -70,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
     {
 
         Move();
-        moveXInput = Input.GetAxis("Horizontal");
+        moveXInput = movement.x; //Input.GetAxis("Horizontal");
 
         OppPos = Opponent.transform.position;
 

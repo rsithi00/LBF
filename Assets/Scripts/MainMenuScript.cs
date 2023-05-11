@@ -2,13 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class MainMenuScript : MonoBehaviour
 {
+    // [SerializeField] private GameObject menu;
+    [SerializeField] private GameObject button;
     // Start is called before the first frame update
     void Start()
     {
-        
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(button);
+    }
+
+    void Update()
+    {
+        // EventSystem.current.SetSelectedGameObject(button);
     }
 
     public void OnePlayerMode()

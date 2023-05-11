@@ -79,17 +79,6 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Arrows",
-                    "id": "f900d057-7720-4c49-aa4b-55df6ab5e17b",
-                    "path": "2DVector",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "move",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "",
                     "id": "f5d1df46-a509-413f-92db-3ec7eca5d54f",
                     "path": "<Keyboard>/w",
@@ -130,6 +119,15 @@
                     "name": "jump",
                     "type": "Button",
                     "id": "aa2b8783-4d66-4754-a0b9-9463f5ffea86",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "punch",
+                    "type": "Button",
+                    "id": "f3d6e807-8933-49ff-8597-f3724785eeb4",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -183,12 +181,78 @@
                 },
                 {
                     "name": "",
+                    "id": "946f6944-c057-46bd-876a-761cbafb04b2",
+                    "path": "<Gamepad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e4ce3ca2-eb0f-43d6-824a-7c6f4a05ee1c",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "a3253769-f8ff-4036-b687-8aad9059216c",
                     "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "Player1",
                     "action": "jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b60ea12a-1f21-49cc-8ef7-36adb220a6e7",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3436cbb6-a829-47dd-937c-7056d3b84492",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "punch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "32fcbf18-6e8f-445f-9a9a-ee0cd4c72188",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Player1",
+                    "action": "punch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "941f408e-eee2-4df2-b329-575c986a937b",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "punch",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

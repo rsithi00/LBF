@@ -35,22 +35,24 @@ public class SaveScript : MonoBehaviour
             TimeOut = true;
         }
 
-        if(Input.GetKeyDown(KeyCode.G)) {
-            P1Health -= .05f;
-        }
+        // if(Input.GetKeyDown(KeyCode.G)) {
+        //     P1Health -= .05f;
+        // }
         
-        if(Input.GetKeyDown(KeyCode.H)) {
-            P2Health -= .05f;
-        }
+        // if(Input.GetKeyDown(KeyCode.H)) {
+        //     P2Health -= .05f;
+        // }
 
         if(P1Health <= 0.0f || (TimeOut && P1Health < P2Health)) {
             win2.SetActive(true);
             win1.SetActive(false);
+            TimeOut = true;
         }
         else if (P2Health <= 0.0f || (TimeOut && P2Health < P1Health))  
         {
             win1.SetActive(true);
             win2.SetActive(false);
+            TimeOut = true;
         }
 
     }
