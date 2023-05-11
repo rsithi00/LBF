@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
+using UnityEngine.InputSystem;
 
 //This Script is intended for demoing and testing animations only.
 
@@ -22,14 +23,25 @@ public class bearController : MonoBehaviour {
 	private bool grounded = false;
 	private float groundRadius = 0.15f;
 	private float jumpForce = 14f;
+	
 
 	private Animator anim;
+
+	private Rigidbody2D rb;
+	public Vector3 OppPos;
+	public GameObject Opponent;
+    public bool facingLeft = false;
+	private SpriteRenderer sprite;
+	private Vector2 movement;
+    // public bool facingRight = true;
 
 	// Use this for initialization
 	void Awake ()
 	{
 //		startTime = Time.time;
 		anim = GetComponent<Animator> ();
+		sprite = GetComponent<SpriteRenderer>();
+		rb = GetComponent<Rigidbody2D>();
 	}
 
 	void FixedUpdate ()
@@ -43,6 +55,23 @@ public class bearController : MonoBehaviour {
 
 	void Update()
 	{
+		Move();
+
+		OppPos = Opponent.transform.position;
+
+        if(OppPos.x > transform.position.x)
+        {
+            facingLeft = false;
+            facingRight = true;
+            sprite.flipX = false;
+        }
+
+        if (OppPos.x < transform.position.x)
+        {
+            facingLeft = true;
+            facingRight = false;            
+            sprite.flipX = true;
+        }
 
         moveXInput = Input.GetAxis("Horizontal");
 
@@ -60,7 +89,11 @@ public class bearController : MonoBehaviour {
 
         GetComponent<Rigidbody2D>().velocity = new Vector2((moveXInput * HSpeed), GetComponent<Rigidbody2D>().velocity.y);
 
-        if (Input.GetButtonDown("Fire1") && (grounded)) { anim.SetTrigger("Punch"); }
+        if (Input.GetButtonDown("Fire1") && (grounded)) 
+		{ 
+			anim.SetTrigger("Punch"); 
+
+		}
 
         if (Input.GetButton("Fire2"))
         {
@@ -74,10 +107,10 @@ public class bearController : MonoBehaviour {
         }
 
         //Flipping direction character is facing based on players Input
-        if (moveXInput > 0 && !facingRight)
-            Flip();
-        else if (moveXInput < 0 && facingRight)
-            Flip();
+        // if (moveXInput > 0 && !facingRight)
+        //     Flip();
+        // else if (moveXInput < 0 && facingRight)
+        //     Flip();
     }
     ////Flipping direction of character
     void Flip()
@@ -87,5 +120,33 @@ public class bearController : MonoBehaviour {
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+	    public void OnMove(InputValue value)
+    {
+        movement = value.Get<Vector2>();
+    }
+
+    public void OnJump(InputValue value) {
+        if(value.isPressed)
+        {
+            Jump();
+            // rb.velocity = new Vector2(movement.x * moveSpeed, jumpForce);
+        }
+    }
+
+	void Jump()
+        {
+            if(grounded)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                anim.SetBool("ground", false);
+            }
+        }
+
+	void Move()
+        {
+
+            rb.velocity = new Vector2(movement.x * HSpeed , rb.velocity.y);
+        }
 
 }

@@ -2,16 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
 
     private Rigidbody2D rb;
+    private float HSpeed = 10f;
+    private float moveXInput;
     [SerializeField] private float moveSpeed = 8f;
     [SerializeField] private float jumpForce = 10f;
     public ProgressBar healthBar;
+    [SerializeField] private GameObject punch;
 
-    [SerializeField] private bool isGround;
+    [SerializeField] private bool isGround = false;
+    // private float groundRadius = 0.15f;
 
 
     [SerializeField] private int playerNumber;
@@ -23,11 +28,14 @@ public class PlayerMovement : MonoBehaviour
     public Vector3 OppPos;
     public bool facingLeft = false;
     public bool facingRight = true;
+
+    private Animator anim;
     
 
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
         isGround = true;
@@ -46,11 +54,21 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+	void FixedUpdate ()
+	{
+
+		// grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
+		anim.SetBool ("ground", isGround);
+
+
+	}
+
     // Update is called once per frame
     void Update()
     {
 
         Move();
+        moveXInput = Input.GetAxis("Horizontal");
 
         OppPos = Opponent.transform.position;
 
@@ -68,6 +86,9 @@ public class PlayerMovement : MonoBehaviour
             sprite.flipX = true;
         }
 
+        anim.SetFloat("HSpeed", Mathf.Abs(moveXInput));
+        anim.SetFloat("vSpeed", GetComponent<Rigidbody2D>().velocity.y);
+
     }
 
         void Move()
@@ -80,6 +101,7 @@ public class PlayerMovement : MonoBehaviour
             if(isGround)
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                anim.SetBool("ground", false);
             }
         }
 
@@ -111,5 +133,7 @@ public class PlayerMovement : MonoBehaviour
             // rb.velocity = new Vector2(movement.x * moveSpeed, jumpForce);
         }
     }
+
+
 
 }

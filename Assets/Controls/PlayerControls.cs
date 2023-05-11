@@ -44,6 +44,15 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""punch"",
+                    ""type"": ""Button"",
+                    ""id"": ""938c02a4-d8c1-4da7-81d5-d5f371e4d3e2"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -110,6 +119,17 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""Player1"",
                     ""action"": ""jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""47e6c785-23be-4ba0-809d-e8eb0c80d8d9"",
+                    ""path"": ""<Keyboard>/f"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Player1"",
+                    ""action"": ""punch"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -220,6 +240,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         m_Player1 = asset.FindActionMap("Player1", throwIfNotFound: true);
         m_Player1_move = m_Player1.FindAction("move", throwIfNotFound: true);
         m_Player1_jump = m_Player1.FindAction("jump", throwIfNotFound: true);
+        m_Player1_punch = m_Player1.FindAction("punch", throwIfNotFound: true);
         // Player2
         m_Player2 = asset.FindActionMap("Player2", throwIfNotFound: true);
         m_Player2_move = m_Player2.FindAction("move", throwIfNotFound: true);
@@ -287,12 +308,14 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     private List<IPlayer1Actions> m_Player1ActionsCallbackInterfaces = new List<IPlayer1Actions>();
     private readonly InputAction m_Player1_move;
     private readonly InputAction m_Player1_jump;
+    private readonly InputAction m_Player1_punch;
     public struct Player1Actions
     {
         private @PlayerControls m_Wrapper;
         public Player1Actions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
         public InputAction @move => m_Wrapper.m_Player1_move;
         public InputAction @jump => m_Wrapper.m_Player1_jump;
+        public InputAction @punch => m_Wrapper.m_Player1_punch;
         public InputActionMap Get() { return m_Wrapper.m_Player1; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -308,6 +331,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @jump.started += instance.OnJump;
             @jump.performed += instance.OnJump;
             @jump.canceled += instance.OnJump;
+            @punch.started += instance.OnPunch;
+            @punch.performed += instance.OnPunch;
+            @punch.canceled += instance.OnPunch;
         }
 
         private void UnregisterCallbacks(IPlayer1Actions instance)
@@ -318,6 +344,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @jump.started -= instance.OnJump;
             @jump.performed -= instance.OnJump;
             @jump.canceled -= instance.OnJump;
+            @punch.started -= instance.OnPunch;
+            @punch.performed -= instance.OnPunch;
+            @punch.canceled -= instance.OnPunch;
         }
 
         public void RemoveCallbacks(IPlayer1Actions instance)
@@ -402,6 +431,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     {
         void OnMove(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
+        void OnPunch(InputAction.CallbackContext context);
     }
     public interface IPlayer2Actions
     {
