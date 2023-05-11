@@ -15,10 +15,8 @@ public class SaveScript : MonoBehaviour
     public static int P2Wins = 0;
     public static int round = 0;
     public static float maxHealth = 1.0f;
-    
-    [SerializeField] private TimerScript time;
     [SerializeField] private GameObject win1,win2;
-
+    [SerializeField] private TimerScript time;
 
     // Start is called before the first frame update
     void Start()
@@ -33,11 +31,10 @@ public class SaveScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(time.LevelTime <= 0.5f)
-        {
+        if(time.LevelTime <= 0.5){
             TimeOut = true;
         }
-        
+
         if(Input.GetKeyDown(KeyCode.G)) {
             P1Health -= .05f;
         }
@@ -46,16 +43,15 @@ public class SaveScript : MonoBehaviour
             P2Health -= .05f;
         }
 
-        if(P1Health <= 0.0f || (TimeOut && P1Health<P2Health)) {
-            win1.SetActive(false);
+        if(P1Health <= 0.0f || (TimeOut && P1Health < P2Health)) {
             win2.SetActive(true);
+            win1.SetActive(false);
         }
-        else if(P2Health <= 0.0f || (TimeOut && P2Health<P1Health)) {
-            win2.SetActive(false);
+        else if (P2Health <= 0.0f || (TimeOut && P2Health < P1Health))  
+        {
             win1.SetActive(true);
-            
+            win2.SetActive(false);
         }
-
 
     }
 
